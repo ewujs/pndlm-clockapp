@@ -1,6 +1,6 @@
 <img src="https://static.pndlm.net/pndlm/4row-currentcolor-full.svg" width="360" alt="☵☲ PNDLM" />
 
-# Clock App 2025
+# Clock App (2025)
 
 Welcome!  In this exercise you'll build one or two screens of a mobile-first frontend.  Your work here will help us understand your frontend programming capabilities as well as your approach and philosophy toward this type of work.
 
@@ -59,7 +59,7 @@ To get started, install [nodejs](https://nodejs.org/en/download) v22+.
 
 Clone the repository to your computer, and install the npm packages:
 ```bash
-cd clockapp2025
+cd clockapp
 npm install
 ```
 
