@@ -25,7 +25,7 @@ const GlassEmoji = styled.div({
 	fontSize: '2em',
 })
 
-const AppRoot = React.memo(() => {
+const AppRoot = () => {
 	const booted = useAppSelector(state => state.app.booted)
 
 	if(!booted) {
@@ -41,6 +41,6 @@ const AppRoot = React.memo(() => {
 			</InterfaceContainer>
 		</ThemeProvider>
 	)
-})
+}
 
 export default AppRoot
