@@ -29,7 +29,7 @@ There are designs for two screens available.  You can choose to build either one
 
 ### Screen 2: Clocks
 
-* The user will be presented with two clocks in two different timezones: [US Pacific time and Taipei time](https://www.worldtimebuddy.com/pst-to-taiwan-taipei).
+* The user will be presented with two clocks.
 * You may add a second (秒) hand to the clocks if so desired.
 * Optional: Perform clock updates via dispatches to Redux.
 
