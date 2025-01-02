@@ -47,7 +47,7 @@ You may perform this exercise as a React web app or as a Flutter app.  Please ch
 
 ### Web
 
-If you are performing this exercise as a React app, please fork or clone this repository as a starting point for your work.  This repo is set up with [Vite](https://vite.dev) and supports hot reloading.
+If you are performing this exercise as a React app, please fork or clone this repository as a starting point, and replace the included landing screen with your work.  This repo is set up with [Vite](https://vite.dev) and supports hot reloading.
 
 Our preferred libraries are also integrated, but you may also use alternatives where you are uncomfortable:
 
@@ -87,4 +87,3 @@ To submit your work, please share your fork with us on Github or zip up your wor
 As this is a new exercise we have just created, we would appreciate your feedback on what you liked about it and what you did not, and any ideas you have for making it better.
 
 Thank you for participating and we're excited to talk with you after your submission!
-
