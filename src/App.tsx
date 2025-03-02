@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import { useEffect } from 'react'
 import { Provider as ReduxProvider } from 'react-redux'
 import { store } from './redux/store'
 import { Global as EmotionGlobal } from '@emotion/react'

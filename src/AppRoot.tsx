@@ -1,4 +1,3 @@
-import React from 'react'
 import styled from '@emotion/styled'
 import { ThemeProvider } from '@emotion/react'
 import { defaultTheme } from './style'
@@ -14,15 +13,15 @@ const InterfaceContainer = styled.div(({theme}) => ({
 	flexDirection: 'column',
 	alignItems: 'center',
 	justifyContent: 'center',
-	rowGap: theme.spacing(2),
+	rowGap: '1rem',
 }))
 
 const Signature = styled.img({
-	width: '240px',
+	width: '15rem',
 })
 
 const GlassEmoji = styled.div({
-	fontSize: '2em',
+	fontSize: '2rem',
 })
 
 const AppRoot = () => {
@@ -35,9 +34,9 @@ const AppRoot = () => {
 	return (
 		<ThemeProvider theme={defaultTheme}>
 			<InterfaceContainer>
-				<Signature src={pndlmLogoSvg} alt="PNDLM" />
+				<Signature src={pndlmLogoSvg} alt="☵☲ PNDLM" />
 				<GlassEmoji>🥃</GlassEmoji>
-				Welcome to PNDLM
+				Cheers!  Let's get started...
 			</InterfaceContainer>
 		</ThemeProvider>
 	)

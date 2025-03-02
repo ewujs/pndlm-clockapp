@@ -32,17 +32,10 @@ export const globalStyle: CSSObject = {
 	},
 }
 
-// Quick replacement of mui's theme.spacing() function
-// Specify CSS measurements in .5x or 1x multiples of 8px units
-type SpacingFunc = (...n: number[]) => string
-const spacing: SpacingFunc = (...n) => n.map(n => `${n * 8}px`).join(' ')
-
 export interface AppTheme {
 	colors: AppColors
-	spacing: SpacingFunc
 }
 
 export const defaultTheme: AppTheme = {
 	colors,
-	spacing,
 }

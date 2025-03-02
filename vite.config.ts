@@ -5,9 +5,8 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
 	plugins: [
 		react({
-			// NOTE: Possibly better dev performance if
-			// babel plugins are disabled
-			// https://vitejs.dev/plugins/
+			// NOTE: Possibly better dev performance if babel plugins are
+			// disabled: https://vitejs.dev/plugins/
 			// "Uses esbuild and Babel, achieving fast HMR with a small package
 			// footprint and the flexibility of being able to use the Babel
 			// transform pipeline. Without additional Babel plugins, only
