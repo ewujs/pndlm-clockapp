@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { appBoot } from './redux/appReducer'
 import AppRoot from './AppRoot'
 import { globalStyle } from './style'
+import ClocksPage from './pages/ClocksPage'
 
 const App = () => {
 	useEffect(() => {
@@ -18,6 +19,7 @@ const App = () => {
 			<BrowserRouter>
 				<Routes>
 					<Route path="/" element={<AppRoot />} />
+					<Route path="/clocks" element={<ClocksPage />} />
 				</Routes>
 			</BrowserRouter>
 		</ReduxProvider>

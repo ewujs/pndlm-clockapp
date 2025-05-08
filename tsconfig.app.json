@@ -22,6 +22,11 @@
 		"noFallthroughCasesInSwitch": true,
 		// this currently causes type error on fontsource import
 		// "noUncheckedSideEffectImports": true
+
+		"baseUrl": "./src",
+		"paths": {
+			"@/*": ["*"]
+		},
 	},
 	"include": ["src"]
 }

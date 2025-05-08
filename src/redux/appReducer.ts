@@ -1,5 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit'
-import { AppThunk } from './storeTypes'
+import type { AppThunk } from './store'
 
 const appSlice = createSlice({
 	name: 'app',
@@ -12,16 +12,16 @@ const appSlice = createSlice({
 		authenticated_user: null,
 	},
 	reducers: {
-		appStatusSet(state) {
+		appSetStatus(state) {
 			state.booted = true
 		}
 	},
 })
 
-export const { appStatusSet } = appSlice.actions
+export const { appSetStatus } = appSlice.actions
 export default appSlice.reducer
 
 export const appBoot = (): AppThunk<void> => (dispatch) => {
-	dispatch(appStatusSet())
+	dispatch(appSetStatus())
 }
 
